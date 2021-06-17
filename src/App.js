@@ -1,7 +1,8 @@
-import BUTTON from './components/Button';
+import Button from './components/Button';
 
 import logo from './logo.svg';
 import './App.css';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -29,14 +30,20 @@ function App() {
           Learn Node.js
         </a>
         <br />
-        <BUTTON 
+        <Button 
           type="submit"
           nome="guilhermesantoss"
         />
         <br />
-        <BUTTON 
+        <Button 
           type="button"
           nome="FernandoLucius"
+        />
+        <br />
+        <Input 
+          type="text"
+          name="nome"
+          placeholder="Digite aqui"
         />
       </header>
     </div>
