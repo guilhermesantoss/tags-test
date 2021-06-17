@@ -26,6 +26,13 @@
 
 .App-link {
   color: #61dafb;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.App-link-node {
+  color: #026e00;
+  font-weight: 500;
 }
 
 @keyframes App-logo-spin {
