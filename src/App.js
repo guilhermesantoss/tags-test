@@ -1,3 +1,5 @@
+import BUTTON from './components/Button';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -26,6 +28,16 @@ function App() {
         >
           Learn Node.js
         </a>
+        <br />
+        <BUTTON 
+          type="submit"
+          nome="guilhermesantoss"
+        />
+        <br />
+        <BUTTON 
+          type="button"
+          nome="FernandoLucius"
+        />
       </header>
     </div>
   );
