@@ -19,7 +19,7 @@ function App() {
         </a>
         <a
           className="App-link-node"
-          href="https://nodejs.or"
+          href="https://nodejs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
